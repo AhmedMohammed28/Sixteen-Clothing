@@ -67,7 +67,6 @@ a.nav-a:hover {
   font-size: 28px;
   font-weight: 400;
   color: #1e1e1e;
-  margin-bottom: 15px;
 }
 #latest-products .heading a {
   text-decoration: none;
@@ -184,5 +183,14 @@ footer .container {
 @media(max-width: 768px) {
   .carousel-item h1 {
     font-size: 32px;
+  }
+  .heading h3 {
+    font-size: 24px;
+  }
+  #latest-products .heading a{
+    font-size: 12px;
+  }
+  .fs-6 {
+    font-size: 13px !important;
   }
 }
